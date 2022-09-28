@@ -124,7 +124,7 @@ public class Calcular {
             System.out.println("Resposta Correta!");
             certo = true;
         }else {
-            System.out.println("Resposta Errada!");
+            System.out.println("Resposta Errada.");
         }
         System.out.println(this.getValor1() + " / " + this.getValor2() + " = " + this.getResultado());
         return certo;
